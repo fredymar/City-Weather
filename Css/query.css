@@ -1,0 +1,47 @@
+@media screen and (max-width: 420px){
+  body{
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  section .principal{
+  	width: 100%;
+  	max-width: 80%;
+  	text-align: center;
+  	background: #fff;
+  	color: black;
+  	margin: 0 auto;
+  	border-radius: 0;
+  }
+  section .linea{
+  	display: none;
+  }
+  section .principal .segundo{
+	width: 100%;
+	margin: 0 auto;
+  }
+  section .principal .segundo img{
+  	width: 100%;
+  	margin-left: -1%;
+  }
+  section .principal .primero{
+  	font-size: 20px;
+  }
+  .forecast{
+  	width: 150%;
+  	height: auto;
+  	background:#404040;
+  	margin-left: 45px;
+  	padding: 0;
+  	max-width: 80%;
+
+  }
+  .forecast div{
+  	display: block;
+  }
+  .paris{
+  	width: 100%;
+  	max-width: 80%;
+  }
+}

@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+section {
+  width: 100%;
+  max-width: 80%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 10px;
+  margin: 20px auto;
+  background-image: url(../Imagenes/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 2px 5px 2px grey;
+  box-sizing: border-box; }
+  section .principal {
+    margin: 0 100px; }
+  section .primero {
+    width: auto;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin: 0px auto;
+    float: left;
+    border-radius: 10px;
+    margin-left: 50px; }
+    section .primero .city {
+      font-size: 2rem;
+      margin-bottom: 0; }
+    section .primero .date {
+      font-size: 0.9rem;
+      margin-bottom: 0; }
+    section .primero .temperatura {
+      font-size: 2rem;
+      margin-bottom: 0; }
+    section .primero .weather, section .primero .range {
+      font-size: 1.3rem;
+      margin-bottom: 0; }
+    section .primero .range {
+      margin-bottom: 20px; }
+  section .linea {
+    width: 1px;
+    height: 270px;
+    background: white;
+    float: left;
+    margin-left: 40px; }
+  section .segundo img {
+    float: left;
+    width: 250px;
+    margin: 0 auto;
+    margin-left: 170px; }
+
+.forecast {
+  width: 55%;
+  max-width: 55%;
+  border: 1px solid #000;
+  font-family: sans-serif;
+  background: grey;
+  margin: 20px auto;
+  margin-top: 0;
+  margin-left: 130px;
+  float: left; }
+
+.paris {
+  width: 22%;
+  font-family: sans-serif;
+  max-width: 22%;
+  text-transform: capitalize;
+  border: 1px solid #000;
+  margin: 20px auto;
+  text-align: center;
+  background-image: url("../Imagenes/torre eiffel.jpg");
+  color: #fff;
+  background-size: cover;
+  margin-top: 0;
+  margin-left: 40px;
+  float: left; }
+  .paris .city {
+    font-size: 1rem;
+    margin-bottom: 0px;
+    margin-top: 0; }
+  .paris .date {
+    font-size: 0.5rem;
+    margin-bottom: 0px; }
+  .paris .temperatura {
+    font-size: 1rem;
+    margin-bottom: 0px; }
+  .paris .weather, .paris .range {
+    font-size: 0.7rem;
+    margin-bottom: 0px; }
+  .paris .range {
+    margin-bottom: 20px; }
+  .paris img {
+    width: 100px;
+    margin-top: -10px; }
+
+.forecast {
+  background: #404040;
+  color: white; }
+  .forecast h3 {
+    margin: 0 auto;
+    font-size: 1.5em; }
+  .forecast div {
+    border-radius: 10px;
+    display: flex;
+    font-family: sans-serif;
+    background: #828282;
+    color: black;
+    font-size: 1em;
+    box-shadow: 1px 3px 1px gray; }
+    .forecast div img {
+      width: 55px; }
+    .forecast div .dia, .forecast div .clim, .forecast div .ftemp, .forecast div .frange {
+      margin: auto 40px; }
+
+/*# sourceMappingURL=main.css.map */
