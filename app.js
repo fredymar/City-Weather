@@ -13,13 +13,13 @@ function UpdateImage(data){
   const temp = data.weather[0].main;
   let src = '';
   if (temp == "Clear") {
-    src = 'http://openweathermap.org/img/wn/01d@2x.png';
+    src ='Imagenes/sun.png';
   }else if (temp == "Clouds") {
-    src = 'http://openweathermap.org/img/wn/03d@2x.png';
+    src = 'Imagenes/cloud.png';
   }else if (temp ==  "Rain") {
-    src = 'http://openweathermap.org/img/wn/10d@2x.png';
+    src = 'Imagenes/rain.png';
   }else if (temp == "Haze") {
-    src = 'http://openweathermap.org/img/wn/50d@2x.png';
+    src = 'Imagenes/mist.png';
   }
   imagen.src = src;
 }
@@ -65,11 +65,11 @@ var img = document.getElementById('img-2'),
    const temp = datos.weather[0].main;
    let src = '';
    if (temp == "Clear") {
-     src = 'http://openweathermap.org/img/wn/01d@2x.png';
+     src = 'Imagenes/sun.png';
    }else if (temp == "Clouds") {
-     src = 'http://openweathermap.org/img/wn/03d@2x.png';
+     src = 'Imagenes/cloud.png';
    }else if (temp ==  "Rain") {
-     src = 'http://openweathermap.org/img/wn/10d@2x.png';
+     src = 'Imagenes/rain.png';
    }
    img.src = src;
  }
@@ -128,29 +128,29 @@ var cd1 = document.getElementById('cd1'),
    const temp3 = fore.daily[2].weather[0].main
    let src = '';
    if (temp == "Clear") {
-     src = 'http://openweathermap.org/img/wn/01d@2x.png';
+     src = 'Imagenes/sun.png';
    }else if (temp == "Clouds") {
-     src = 'http://openweathermap.org/img/wn/03d@2x.png';
+     src = 'Imagenes/cloud.png';
    }else if (temp == "Rain") {
-     src = 'http://openweathermap.org/img/wn/10d@2x.png';
+     src = 'Imagenes/rain.png';
    }
    cd1.src = src;
 
    if (temp2 == "Clear") {
-     src = 'http://openweathermap.org/img/wn/01d@2x.png';
+     src = 'Imagenes/sun.png';
    }else if (temp2 == "Clouds") {
-     src = 'http://openweathermap.org/img/wn/03d@2x.png';
+     src = 'Imagenes/cloud.png';
    }else if (temp2 == "Rain") {
-     src = 'http://openweathermap.org/img/wn/10d@2x.png';
+     src = 'Imagenes/rain.png';
    }
    cd2.src = src;
 
    if (temp3 == "Clear") {
-     src = 'http://openweathermap.org/img/wn/01d@2x.png';
+     src = 'Imagenes/sun.png';
    }else if (temp3 == "Clouds") {
-     src = 'http://openweathermap.org/img/wn/03d@2x.png';
+     src = 'Imagenes/cloud.png';
    }else if (temp3 == "Rain") {
-     src = 'http://openweathermap.org/img/wn/10d@2x.png';
+     src = 'Imagenes/rain.png';
    }
    cd3.src = src;
  }
