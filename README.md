@@ -1,0 +1,2 @@
+Esta aplicación mostrara el clima actual y la temperatura en las ciudades de Bogotá y París, ademas se encontrara el pronostico de los próximos 3 dias de la ciudad de Bogotá.
+Esta aplicación se realizo empleando HTML, css, sass y javascript, realizando el maquetado, diseño y responsive design con css, sass y HTML, y javascript se empleo para traer los archivos desde openweathermap, sitio desde el que se extrajo la información
